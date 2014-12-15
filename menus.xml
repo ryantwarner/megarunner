@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menus>
+    <menu menuid="mainmenu">
+        <images>
+            <image imgid="background" src="images/menu-bg.jpg" x="0" y="0" w="800" h="480"></image>
+            <image imgid="title" src="images/title.png" x="235" y="10" w="329" h="61"></image>
+        </images>
+        <buttons>
+            <button btnid="start" src="images/start.png" x="337" y="100" w="125" h="46" func="startGame" funcParams=""></button>
+            <button btnid="options" src="images/options.png" x="316" y="200" w="125" h="46" func="showMenu" funcParams="options"></button>
+            <button btnid="credits" src="images/credits.png" x="316" y="300" w="168" h="47" func="showMenu" funcParams="credits"></button>
+            <button btnid="quit" src="images/quit-button.png" x="10" y="294" w="76" h="76" func="quitGame" funcParams=""></button>
+            <button btnid="share" src="images/twitter-icon.png" x="734" y="404" w="56" h="56" func="share" funcParams=""></button>
+        </buttons>
+    </menu>
+    <menu menuid="credits">
+        <images>
+            <image imgid="background" src="images/menu-bg.jpg" x="0" y="0" w="800" h="480"></image>
+            <image imgid="title" src="images/credits.png" x="235" y="10" w="168" h="47"></image>
+            <image imgid="text" src="images/credits-text.png" x="235" y="70" w="290" h="46"></image>
+        </images>
+        <buttons>
+            <button btnid="mainmenu" src="images/mainmenu-button.png" x="10" y="394" w="76" h="76" func="showMenu" funcParams="mainmenu"></button>
+            <button btnid="optionsmenu" src="images/options-button.png" x="714" y="394" w="76" h="76" func="showMenu" funcParams="optionsmenu"></button>
+        </buttons>
+    </menu>
+</menus>

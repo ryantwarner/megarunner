@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spritesheet src="images/megaman-sheet.png">
+    <sequences>
+        <sequence name="normalrun" loop="0" speed="600">
+            <frames>
+                <frame frameid="1" framex="18" framey="112" framew="26" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="2" framex="52" framey="112" framew="33" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="3" framex="95" framey="112" framew="44" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="4" framex="148" framey="112" framew="34" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="5" framex="194" framey="112" framew="27" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="6" framex="231" framey="112" framew="25" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="7" framex="271" framey="112" framew="26" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="8" framex="312" framey="112" framew="37" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="9" framex="362" framey="112" framew="28" frameh="37" trimmed="0" rotation="0"></frame>
+                <frame frameid="10" framex="405" framey="112" framew="25" frameh="37" trimmed="0" rotation="0"></frame>
+            </frames>
+        </sequence>
+        <sequence name="warpin" loop="1" speed="450">
+            <frames>
+                <frame frameid="1" framex="26" framey="7" framew="8" frameh="48" trimmed="0" rotation="0"></frame>
+                <frame frameid="2" framex="41" framey="15" framew="16" frameh="46" trimmed="0" rotation="0"></frame>
+                <frame frameid="3" framex="64" framey="23" framew="25" frameh="32" trimmed="0" rotation="0"></frame>
+                <frame frameid="4" framex="95" framey="29" framew="30" frameh="26" trimmed="0" rotation="0"></frame>
+                <frame frameid="5" framex="131" framey="37" framew="32" frameh="18" trimmed="0" rotation="0"></frame>
+                <frame frameid="6" framex="169" framey="21" framew="34" frameh="34" trimmed="0" rotation="0"></frame>
+                <frame frameid="7" framex="217" framey="15" framew="34" frameh="40" trimmed="0" rotation="0"></frame>
+                <frame frameid="8" framex="261" framey="15" framew="34" frameh="40" trimmed="0" rotation="0"></frame>
+            </frames>
+        </sequence>
+    </sequences>
+</spritesheet>
